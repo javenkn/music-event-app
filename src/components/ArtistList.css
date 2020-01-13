@@ -1,0 +1,51 @@
+.artist-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.artist-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  flex: 3;
+  overflow: auto;
+  max-height: 70vh;
+}
+
+.artist-wrapper {
+  margin: 0;
+}
+
+.artist-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-shadow: 1px 2px 2px#000;
+  text-align: center;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.input-wrapper {
+  padding-right: 20px;
+}
+
+.input-filter {
+  margin: 1rem 0;
+  width: 70%;
+  margin-left: 15%;
+  font-size: 18px;
+  padding: 10px;
+  border: 0;
+  border-bottom: 2px solid darkgrey;
+}
+
+.input-filter.artist {
+  width: 100%;
+  margin: 0;
+}
