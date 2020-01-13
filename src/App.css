@@ -1,0 +1,33 @@
+.App {
+  height: 100vh;
+  background-color: #e8e8e8;
+}
+
+.App-header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: #47e882;
+}
+
+.App-header > h1 {
+  font-size: 3rem;
+}
+
+nav {
+  margin-left: auto;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: #000;
+  font-size: 1.5rem;
+  margin-left: 20px;
+}
+
+.container {
+  padding: 20px;
+}
