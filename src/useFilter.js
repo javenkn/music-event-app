@@ -1,7 +1,7 @@
 import { useMemo } from "react";
 
+// React hook that filters data by an user input
 const useFilter = (data, userInput) => {
-  console.log(data);
   const filteredData = useMemo(
     () =>
       data &&

@@ -5,6 +5,7 @@ import "./ArtistList.css";
 import defaultImg from "../default-artist.png";
 
 const Artist = React.memo(artist => {
+  // checks if artist logo src is available
   const artistLogoExists = artist.logo.slice(-9) !== "undefined";
   return (
     <Link to={artist.id} hello="hello" className="artist-wrapper">

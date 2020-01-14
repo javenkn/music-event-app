@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 
+// React hook for fetching based on url/options then sorts data based on name
 function useFetch(url, options) {
   const [data, setData] = useState(null);
   const [isLoading, setIsLoading] = useState(true);

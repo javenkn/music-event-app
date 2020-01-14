@@ -3,16 +3,10 @@ import { DataContext } from "../App";
 import useFilter from "../useFilter";
 
 function filterByDate(data) {
+  // filters dates in DESC order
   return data.sort(
     (a, b) => new Date(b.event_date_time) - new Date(a.event_date_time)
   );
-}
-
-function addZeroToTime(time) {
-  if (Number(time) < 10) {
-    return "0" + time;
-  }
-  return time;
 }
 
 const Concerts = () => {
